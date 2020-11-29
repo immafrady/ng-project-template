@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DemoStructure } from '@resource/structure';
 
 @Component({
   selector: 'app-root',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-project-template';
+  // 结构的用法
+  list: DemoStructure[];
 }
